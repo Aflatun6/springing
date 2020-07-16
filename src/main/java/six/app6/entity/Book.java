@@ -14,7 +14,10 @@ public class Book {
 
     String title;
 
-    @ManyToMany(mappedBy="books")
+    @ManyToMany
+    @JoinTable(name = "author_book",
+            joinColumns = {@JoinColumn(name = "book_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "author_id", referencedColumnName = "a_id")})
     Set<Author> authors;
 
 }

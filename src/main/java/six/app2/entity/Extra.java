@@ -14,6 +14,6 @@ public class Extra {
     @Column(name = "x_info")
     public String info;
 
-    @OneToOne
+    @OneToOne(mappedBy="extra")
     public Person person;
 }

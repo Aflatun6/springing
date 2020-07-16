@@ -14,6 +14,6 @@ public class Person {
     @Column(name = "name")
     public String name;
 
-    @OneToOne(mappedBy = "person")
+    @OneToOne
     public Extra extra;
 }

@@ -2,21 +2,34 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nine" />
+        <module name="thirteen" />
         <module name="elevenSecurity" />
+        <module name="emailConfirm" />
+        <module name="nine" />
         <module name="springing" />
+        <module name="twelve" />
+        <module name="emailConfirmation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thirdteen" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="elevenSecurity" options="-parameters" />
+      <module name="emailConfirm" options="-parameters" />
+      <module name="emailConfirmation" options="-parameters" />
       <module name="nine" options="-parameters" />
       <module name="springing" options="-parameters" />
+      <module name="thirdteen" options="-parameters" />
+      <module name="thirteen" options="-parameters" />
+      <module name="twelve" options="-parameters" />
     </option>
   </component>
 </project>

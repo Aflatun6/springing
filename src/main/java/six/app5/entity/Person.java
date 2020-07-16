@@ -19,6 +19,6 @@ public class Person {
     String name;
 
     @OneToMany(mappedBy = "person")
-    public Set<Phone> phone;
+    public Set<Phone> phones;
 
 }

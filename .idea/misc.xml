@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nine/pom.xml" />
         <option value="$PROJECT_DIR$/elevenSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/twelve/pom.xml" />
+        <option value="$PROJECT_DIR$/thirdteen/pom.xml" />
+        <option value="$PROJECT_DIR$/thirteen/pom.xml" />
+        <option value="$PROJECT_DIR$/emailConfirmation/pom.xml" />
+        <option value="$PROJECT_DIR$/emailConfirm/pom.xml" />
       </list>
     </option>
   </component>

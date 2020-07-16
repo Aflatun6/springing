@@ -48,7 +48,7 @@ public class RedirectController {
 
     /////////////////////////////////////////////////////////////////
     /////////////////////////////////////////////////////////////////
-    //  REDIRECT ADD FLASH ATTRIBUTE   WORKS   WITH    MODEL!!!!
+    //  REDIRECT ADD FLASH ATTRIBUTE   WORK   WITH    MODEL!!!!
     @GetMapping("z")
     public RedirectView handle_z(RedirectAttributes r) {
         r.addFlashAttribute("name", "alik");

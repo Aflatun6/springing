@@ -17,7 +17,7 @@ public class Phone {
     String phone;
 
     @ManyToOne
-    @JoinColumn(name = "person_id")
+    @JoinColumn(name = "person_id", referencedColumnName = "p_id")
     Person person;
 
 }

@@ -13,10 +13,10 @@
         <module name="nine" />
         <module name="springing" />
         <module name="twelve" />
-        <module name="emailConfirmation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="emailConfirmation" target="1.8" />
       <module name="thirdteen" target="1.8" />
     </bytecodeTargetLevel>
   </component>
